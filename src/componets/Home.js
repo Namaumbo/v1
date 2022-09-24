@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import AboutMe from "./AboutMe";
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
           }}
         >
           <span style={{ fontSize: "100px" }}>Hi,</span>{" "}
-          <span style={{ fontWeight: "lighter",fontSize:"25px" }}>my name is</span>
+          <span style={{ fontWeight: "lighter", fontSize: "25px" }}>
+            my name is
+          </span>
         </h1>
         <h1
           style={{
@@ -30,11 +33,37 @@ export default function Home() {
           Daelo{" "}
         </h1>
         <h1 style={{ color: "#ccd6f6", fontSize: "70px", marginTop: "-0.4em" }}>
-          I build things for the web.
+          I build things for the world.
         </h1>
         <br />
-        <Button variant="outline-info" aria-label="phone" style={{padding:"1em", }}>Contact me!</Button>{' '}
-        <Button variant="outline-info" style={{padding:"1em", }}>Check my projects</Button>{' '}
+        <Button variant="outline-info" style={{ padding: "1em" }}>
+          Contact me!
+        </Button>{" "}
+        <Button variant="outline-info" style={{ padding: "1em" }}>
+          Check my projects
+        </Button>{" "}
+      </div>
+      <br />
+      <div style={{ marginRight: "15em" }}>
+        <h1
+          className="title"
+          style={{
+            fontSize: "25px",
+            color: "#ccd6f6",
+            fontFamily: "sans-serif",
+            fontWeight: "bolder",
+            marginTop: "7em",
+          }}
+        >
+          <br />
+          <span style={{ paddingLeft: "2em" }}>
+            <span style={{ color: "#53d3b9", fontFamily: "monospace" }}>
+              1.{" "}
+            </span>
+            About Me
+          </span>{" "}
+        </h1>
+        
       </div>
       
     </>
