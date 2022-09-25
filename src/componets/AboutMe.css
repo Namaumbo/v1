@@ -1,0 +1,13 @@
+
+.frontStack ul li{
+    color: #53d3b9;
+    font-size:"17px"
+}
+.backendStack ul li{
+    color: #53d3b9;  
+    font-size:"17px"
+}
+.listContainer{
+    display: flex;
+    justify-content:space-between ;
+}

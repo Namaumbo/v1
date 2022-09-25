@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import "./AboutMe.css";
 
 export default function AboutMe() {
   return (
@@ -10,6 +10,7 @@ export default function AboutMe() {
             textAlign: "justify",
             color: "#8892b0",
             fontWeight: "revert",
+            fontSize:"17px"
           }}
         >
           <span
@@ -21,31 +22,89 @@ export default function AboutMe() {
           >
             H
           </span>
-          ello! My name is Daelo Namaumbo and I enjoy developing things easing <span style={{
+          ello! My name is Daelo Namaumbo and I enjoy developing things easing{" "}
+          <span
+            style={{
               color: "#53d3b9",
               fontFamily: "monospace",
-            }}>daily leaving</span>. My interest in development started back in 2016
-          when I decided to try editing Jerusalem Baptist website — turns out ads among other buttons
-          together directed me to a number of possibilities. A button taught me a lot about HTML & CSS!
+            }}
+          >
+            daily leaving
+          </span>
+          . My interest in development started back in 2016 when I decided to
+          try editing Jerusalem Baptist website — turns out ads among other
+          buttons together directed me to a number of possibilities. A button
+          taught me a lot about HTML & CSS!
         </p>
-        
-        <p style={{
+
+        <p
+          style={{
             textAlign: "justify",
             color: "#8892b0",
             fontWeight: "revert",
-          }}>
-            Days and struggles passed which finaly got to University of Malawi also known as Chancellor College
-            past days.I had to conceptualise everything a developer needs to know about software develoment. I have
-            had privileges of being part of a few project to grasp what the industry is all about. My main focus 
-            now is developing applications on web, mobile and desktop applications that would enhance lives better.
+            fontSize:"17px"
+          }}
+        >
+          Days and struggles passed which finaly got to University of Malawi
+          also known as Chancellor College past days.I had to conceptualise
+          everything a developer needs to know about software develoment. I have
+          had privileges of being part of a few project to grasp what the
+          industry is all about. My main focus now is developing applications on
+          web, mobile and desktop applications that would enhance lives better.
         </p>
-        <p style={{
+        <p
+          style={{
             textAlign: "justify",
             color: "#8892b0",
             fontWeight: "revert",
-          }}>
-            Here are some of the technology stack I have been working with in the recent time.
+            fontSize:"17px"
+          }}
+        >
+          Here are some of the technology stack I have been working with in the
+          recent time.
         </p>
+        <div className="listContainer">
+          <div className="frontStack">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Node</li>
+              <li>Laravel</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div className="backendStack">
+            <ul>
+              <li>Python</li>
+              <li>Java</li>
+              <li>Springboot framework</li>
+              <li>SQL</li>
+              <li>Postgresql</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />'
+      <div style={{ marginRight: "15em" }}>
+        <h1
+          className="title"
+          style={{
+            fontSize: "25px",
+            color: "#ccd6f6",
+            fontFamily: "sans-serif",
+            fontWeight: "bolder",
+        }}
+        >
+          <br />
+          <span style={{ paddingLeft: "3em" }}>
+            <span style={{ color: "#53d3b9", fontFamily: "monospace" }}>
+              2.{" "}
+            </span>
+            Experience
+          </span>{" "}
+        </h1>
       </div>
     </>
   );
