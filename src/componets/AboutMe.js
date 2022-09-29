@@ -1,9 +1,33 @@
 import React from "react";
 import "./AboutMe.css";
+import  {Image} from "semantic-ui-react"
+import pic from "../Asserts/me.jpg"
 
 export default function AboutMe() {
   return (
     <>
+     <div style={{ marginRight: "30em" }}>
+        <h1
+          className="title"
+          style={{
+            fontSize: "25px",
+            color: "#ccd6f6",
+            fontFamily: "sans-serif",
+            fontWeight: "bolder",
+            marginTop: "7em",
+          }}
+        >
+          <br />
+          <span style={{ paddingLeft: "1em" }}>
+            <span id="about" style={{ color: "#53d3b9", fontFamily: "monospace" }}>
+              1.{" "}
+            </span>
+            About Me
+          </span>{" "}
+        </h1>
+        <br />
+      </div>
+      <div style={{display:"flex",justifyContent:"space-around"}}>
       <div style={{ width: "400px" }}>
         <p
           style={{
@@ -86,26 +110,16 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-      <br />'
-      <div style={{ marginRight: "15em" }}>
-        <h1
-          className="title"
-          style={{
-            fontSize: "25px",
-            color: "#ccd6f6",
-            fontFamily: "sans-serif",
-            fontWeight: "bolder",
-        }}
-        >
-          <br />
-          <span style={{ paddingLeft: "3em" }}>
-            <span style={{ color: "#53d3b9", fontFamily: "monospace" }}>
-              2.{" "}
-            </span>
-            Experience
-          </span>{" "}
-        </h1>
+      <div>
+        <Image src= {pic}   style={{
+              width: "300px",
+                
+            }}/>
       </div>
+      </div>
+     
+      <br />
+    
     </>
   );
 }

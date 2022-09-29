@@ -81,8 +81,28 @@ export default function Experience() {
 
   return (
     <>
-      <div style={{ width: "500px" }}>
+      <div style={{ width: "600px" }}>
         <br />
+        <div style={{ marginRight: "3em" }}>
+        <h1
+          className="title"
+          style={{
+            fontSize: "25px",
+            color: "#ccd6f6",
+            fontFamily: "sans-serif",
+            fontWeight: "bolder",
+        }}
+        >
+          <br />
+          <br />
+          <span >
+            <span style={{ color: "#53d3b9", fontFamily: "monospace" }}>
+              2.{" "}
+            </span>
+            Experience
+          </span>{" "}
+        </h1>
+      </div>
         <Tab
           menu={{ fluid: true, vertical: true, tabular: true }}
           panes={panes}

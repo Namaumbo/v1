@@ -10,11 +10,12 @@ import git from "../Asserts/git.png";
 import react from "../Asserts/react.png";
 import laravel from "../Asserts/laravel.png";
 import python from "../Asserts/python.png";
+import java from "../Asserts/java.png"
 
 export default function TechnologyStack() {
   return (
     <>
-      <div style={{ marginRight: "30.5em" }}>
+      <div style={{ marginRight: "30em" }}>
         <h1
           className="title"
           style={{
@@ -35,14 +36,20 @@ export default function TechnologyStack() {
         <br />
       </div>
 
-      <Header    style={{ marginLeft: "25em" ,color:"#53d3b9",fontFamily:"monospace"}}>
+      <Header
+        style={{
+          marginLeft: "25em",
+          color: "#53d3b9",
+          fontFamily: "monospace",
+        }}
+      >
         {" "}
         Technology stack & progress
       </Header>
       <br />
       <div style={{ display: "flex", justifyContent: "space-around" }}>
         <Grid>
-          <Grid.Row columns={9}>
+          <Grid.Row columns={10}>
             <Grid.Column>
               <Header
                 as="h3"
@@ -53,7 +60,7 @@ export default function TechnologyStack() {
                   fontFamily: "monospace",
                 }}
               >
-                Java 
+                Js
               </Header>
 
               <Image
@@ -123,7 +130,7 @@ export default function TechnologyStack() {
                   fontFamily: "monospace",
                 }}
               >
-                node 
+                node
               </Header>
               <Image
                 src={node}
@@ -146,7 +153,7 @@ export default function TechnologyStack() {
                   fontFamily: "monospace",
                 }}
               >
-                spring 
+                spring
               </Header>
               <Image
                 src={spring}
@@ -174,7 +181,7 @@ export default function TechnologyStack() {
                   fontFamily: "monospace",
                 }}
               >
-                react 
+                react
               </Header>
               <Image
                 src={react}
@@ -207,7 +214,7 @@ export default function TechnologyStack() {
               <Image
                 src={python}
                 style={{
-                  width: "100px",
+                  width: "60px",
                   border: "1.5 solid white",
                   borderRadius: "10px",
                 }}
@@ -230,7 +237,7 @@ export default function TechnologyStack() {
               <Image
                 src={git}
                 style={{
-                  width: "90px",
+                  width: "60px",
                   border: "1.5 solid white",
                   borderRadius: "10px",
                 }}
@@ -238,30 +245,54 @@ export default function TechnologyStack() {
               <p></p>
               <Progress color="red" percent={60} size="tiny" />
             </Grid.Column>
-          </Grid.Row>
+            <Grid.Column>
+            <Header
+              as="h3"
+              style={{
+                color: "#53d3b9",
+                fontWeight: "lighter",
+                fontSize: "15px",
+                fontFamily: "monospace",
+              }}
+            >
+              laravel
+            </Header>
+            <Image
+              src={laravel}
+              style={{
+                width: "50px",
+                border: "1.5 solid white",
+                borderRadius: "10px",
+              }}
+            />
+            <p></p>
+            <Progress color="red" percent={60} size="tiny" />
+          </Grid.Column>
           <Grid.Column>
-              <Header
-                as="h3"
-                style={{
-                  color: "#53d3b9",
-                  fontWeight: "lighter",
-                  fontSize: "15px",
-                  fontFamily: "monospace",
-                }}
-              >
-                laravel
-              </Header>
-              <Image
-                src={laravel}
-                style={{
-                  width: "100px",
-                  border: "1.5 solid white",
-                  borderRadius: "10px",
-                }}
-              />
-              <p></p>
-              <Progress color="red" percent={60} size="tiny" />
-            </Grid.Column>
+            <Header
+              as="h3"
+              style={{
+                color: "#53d3b9",
+                fontWeight: "lighter",
+                fontSize: "15px",
+                fontFamily: "monospace",
+              }}
+            >
+              java
+            </Header>
+            <Image
+              src={java}
+              style={{
+                width: "80px",
+                border: "1.5 solid white",
+                borderRadius: "10px",
+              }}
+            />
+            <p></p>
+            <Progress color="blue" percent={60} size="tiny" />
+          </Grid.Column>
+          </Grid.Row>
+          
         </Grid>
       </div>
     </>

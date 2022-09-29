@@ -6,11 +6,11 @@ import programmer from "../Asserts/use1.png";
 export default function Home() {
   return (
     <>
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <div id="home" style={{ display: "flex", justifyContent: "space-around" }}>
         <div style={{ marginLeft: "3em" }}>
           <h1
             style={{
-              transitionDelay: "300ms",
+           
               color: "#53d3b9",
               fontFamily: "monospace",
               fontSize: "20px",
@@ -54,27 +54,7 @@ export default function Home() {
       </div>
 
       <br />
-      <div style={{ marginRight: "49em" }}>
-        <h1
-          className="title"
-          style={{
-            fontSize: "25px",
-            color: "#ccd6f6",
-            fontFamily: "sans-serif",
-            fontWeight: "bolder",
-            marginTop: "7em",
-          }}
-        >
-          <br />
-          <span style={{ paddingLeft: "2em" }}>
-            <span style={{ color: "#53d3b9", fontFamily: "monospace" }}>
-              1.{" "}
-            </span>
-            About Me
-          </span>{" "}
-        </h1>
-        <br />
-      </div>
+     
     </>
   );
 }
