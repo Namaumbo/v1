@@ -25,6 +25,8 @@ export default function Experience() {
               Finished tasks and job duties, adhering to deadlines to avoid
               delays
             </li>
+
+            
           </ul>
         </Tab.Pane>
       ),
@@ -72,6 +74,30 @@ export default function Experience() {
             </li>
             <li style={{ color: "#8892b0", fontSize: "14px" }}>
               " Interested? I have a number of projects too!" .
+            </li>
+          </ul>
+        </Tab.Pane>
+      ),
+    },
+
+    {
+      menuItem: "App Farm",
+      render: () => (
+        <Tab.Pane style={{ backgroundColor: "#0a192f", border: "none" }}>
+          <ul>
+            <li style={{ color: "#8892b0", fontSize: "14px" }}>
+              Am part of the development team of  people at the app farm
+              .
+            </li>
+            <li style={{ color: "#8892b0", fontSize: "14px" }}>
+              Worked effinciently with diverse programmers and deduced the
+              problems to be captured.
+            </li>
+            <li style={{ color: "#8892b0", fontSize: "14px" }}>
+            Experiencing a great deal of UX desigining and api implementations
+            </li>
+            <li style={{ color: "#8892b0", fontSize: "14px" }}>
+              "I'm currently looking for freelancing opportunity in web development for challenges ahead" .
             </li>
           </ul>
         </Tab.Pane>

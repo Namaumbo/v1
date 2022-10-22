@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, Header, Icon, Image } from "semantic-ui-react";
 import excepcion from "../Asserts/excepcion2.png";
 import phone from "../Asserts/phone.png";
+import todo from "../Asserts/todoApp.png";
 import "./Project.css";
 
 export default function Projects() {
@@ -194,6 +195,98 @@ export default function Projects() {
       <br />
       <br />
       <br />
+      <br />
+      <>
+        <h3
+          style={{
+            marginLeft: "4.6em",
+            color: "#ccd6f6",
+            fontFamily: "sans-serif",
+            fontWeight: "bolder",
+          }}
+        >
+          To do Application
+        </h3>
+        <div style={{ display: "block", marginLeft: "28em" }}>
+          <div
+            style={{
+              width: "500px",
+              marginLeft: "-20em",
+              marginBottom: "-13em",
+              border: ".5px solid #0a192f",
+              color: "#8892b0",
+              borderRadius: "5px",
+              boxShadow: "-1px 3px 35px .5px black",
+            }}
+          >
+            <div
+              style={{
+                backgroundColor: "#0a192f",
+                padding: "1em",
+                justify: "left",
+              }}
+            >
+              This is the web application helping people to keep track of their
+              duties to be completed as they also set their priorities.
+            </div>
+          </div>
+
+          <Image
+            src={todo}
+            style={{
+              width: "650px",
+              height: "350px",
+              marginTop: "-9em",
+              zIndex: -1,
+              marginLeft: "8em",
+              opacity: "0.2",
+            }}
+          />
+        </div>
+
+        <div style={{ marginTop: "-10em", marginLeft: "10em" }}>
+          <Header as="h4" style={{ color: "#53d3b9", fontFamily: "monospace" }}>
+            Reactjs semantic ui postgresql
+          </Header>
+          <br />
+          <a
+            href="https://github.com/spikkernamaumbo/Todo_app.git"
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Icon
+              name="github"
+              size="large"
+              link
+              style={{
+                color: "white",
+                marginRight: "1em",
+                marginTop: "-2em  ",
+              }}
+            ></Icon>
+          </a>
+
+          <a
+            href="https://complete-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <Icon
+              name="external"
+              size="large"
+              link
+              style={{ color: "white", marginTop: "-2em" }}
+            ></Icon>
+          </a>
+        </div>
+      </>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <>
         <h3
           style={{
@@ -272,6 +365,7 @@ export default function Projects() {
             style={{ color: "white", marginTop: "-2em" }}
           ></Icon>
         </div>
+
         <br />
         <div style={{ marginRight: "13.5em" }}>
           <h1

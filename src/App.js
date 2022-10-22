@@ -8,7 +8,7 @@ import Projects from "./componets/Projects";
 import WhatsNext from "./componets/WhatsNext";
 import Contact from "./componets/Contact";
 import { useRef } from "react";
-// import ScrollToTop from "./componets/ScrollToTop";
+
 
 function App() {
   const home = useRef(null);
