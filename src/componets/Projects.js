@@ -3,6 +3,7 @@ import { Grid, Header, Icon, Image } from "semantic-ui-react";
 import excepcion from "../Asserts/excepcion2.png";
 import phone from "../Asserts/phone.png";
 import todo from "../Asserts/todoApp.png";
+import hrms from "../Asserts/Screenshot (83).png";
 import "./Project.css";
 
 export default function Projects() {
@@ -296,7 +297,7 @@ export default function Projects() {
             fontWeight: "bolder",
           }}
         >
-          Zomba church managemnt sys
+          Human Resourse Management system
         </h3>
         <div style={{ display: "block", marginLeft: "28em" }}>
           <div
@@ -317,15 +318,15 @@ export default function Projects() {
                 justify: "left",
               }}
             >
-              A web app for managing church members and the services rendered to
-              them. You can Follow an announcements made on sundays, pay tithe
-              and follow sermons verses among other activities. Only registered
-              Admin or pastor can upload services to congregations.
+              A web app for managing applications when a job posting has been made
+              Admin can post job and applications are managed systematically
+              .This is a featured project under development and am implementing the
+              front end and have yet patched some of the back end duties.
             </div>
           </div>
 
           <Image
-            src={excepcion}
+            src={hrms}
             style={{
               width: "650px",
               marginTop: "-9em",
@@ -338,11 +339,11 @@ export default function Projects() {
 
         <div style={{ marginTop: "-7em", marginLeft: "10em" }}>
           <Header as="h4" style={{ color: "#53d3b9", fontFamily: "monospace" }}>
-            Reactjs Laravel Bootstrap Mysql
+            Reactjs semantic ui tailwind postgresql
           </Header>
           <br />
           <a
-            href="https://github.com/spikkernamaumbo/ZombaBaptistApi"
+            href="https://github.com/MARTINCHUNGA/hrms1"
             style={{ textDecoration: "none" }}
           >
             {" "}
