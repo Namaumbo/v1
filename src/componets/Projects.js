@@ -87,7 +87,7 @@ export default function Projects() {
 
         <div style={{ marginTop: "-7em", marginLeft: "10em" }}>
           <Header as="h4" style={{ color: "#53d3b9", fontFamily: "monospace" }}>
-            Reactjs Node js Express postgresql firebase
+            Reactjs Node js Express postgresql firebase recoil
           </Header>
           <br />
           <a
@@ -105,13 +105,15 @@ export default function Projects() {
               }}
             ></Icon>
           </a>
-
-          <Icon
-            name="external"
-            size="large"
-            link
-            style={{ color: "white", marginTop: "-2em" }}
-          ></Icon>
+          <a href="https://exception-v1.netlify.app/"
+            style={{ textDecoration: "none" }}>
+            <Icon
+              name="external"
+              size="large"
+              link
+              style={{ color: "white", marginTop: "-2em" }}
+            />
+          </a>
         </div>
       </>
       <br />
@@ -318,10 +320,11 @@ export default function Projects() {
                 justify: "left",
               }}
             >
-              A web app for managing applications when a job posting has been made
-              Admin can post job and applications are managed systematically
-              .This is a featured project under development and am implementing the
-              front end and have yet patched some of the back end duties.
+              A web app for managing applications when a job posting has been
+              made Admin can post job and applications are managed
+              systematically .This is a featured project under development and
+              am implementing the front end and have yet patched some of the
+              back end duties.
             </div>
           </div>
 
