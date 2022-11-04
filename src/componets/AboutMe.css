@@ -1,13 +1,51 @@
-
-.frontStack ul li{
+.frontStack ul li {
     color: #53d3b9;
-    font-size:"17px"
+    font-size: "17px"
 }
-.backendStack ul li{
-    color: #53d3b9;  
-    font-size:"17px"
+
+.backendStack ul li {
+    color: #53d3b9;
+    font-size: "17px"
 }
-.listContainer{
+
+.listContainer {
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+
+}
+.details{
+     width: 400px 
+}
+.paragraph{
+        text-align: justify;
+        color: #8892b0;
+        font-weight: revert;
+        font-size: 17px
+}
+.divider{
+    width: 75%;   
+}
+.titles{
+    font-size: 20px;
+    color: #ccd6f6;
+    font-family: sans-serif;
+    margin-top: 7em
+
+}
+@media (max-width:1030px) {
+   
+    .wrapper{
+        display: block;
+    }
+    .about{
+    
+        margin-left:auto;
+        margin-right:auto;
+        width: 50%;  
+    }
 }

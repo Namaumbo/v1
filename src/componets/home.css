@@ -1,0 +1,17 @@
+.illustrator{
+     width:350px 
+}
+.home{
+display: flex; 
+justify-content: space-around ;
+
+margin-bottom: 10em;
+}
+@media (max-width:960px) {
+    .illustrator{
+        display: none
+    }
+    .home{
+        margin: auto;
+    }
+}

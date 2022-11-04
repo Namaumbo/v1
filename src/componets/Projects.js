@@ -106,6 +106,8 @@ export default function Projects() {
             ></Icon>
           </a>
           <a href="https://exception-v1.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
             style={{ textDecoration: "none" }}>
             <Icon
               name="external"

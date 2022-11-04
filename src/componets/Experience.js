@@ -107,17 +107,11 @@ export default function Experience() {
 
   return (
     <>
-      <div style={{ width: "600px" }}>
+      <div className="experience" >
         <br />
         <div style={{ marginRight: "3em" }}>
         <h1
           className="title"
-          style={{
-            fontSize: "25px",
-            color: "#ccd6f6",
-            fontFamily: "sans-serif",
-            fontWeight: "bolder",
-        }}
         >
           <br />
           <br />

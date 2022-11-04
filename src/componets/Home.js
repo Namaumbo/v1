@@ -1,13 +1,13 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import { Image } from "semantic-ui-react";
 import programmer from "../Asserts/use1.png";
+import "./home.css"
 
 export default function Home() {
   return (
     <>
-      <div id="home" style={{ display: "flex", justifyContent: "space-around" }}>
-        <div style={{ marginLeft: "3em" }}>
+      <div className="home">
+        <div>
           <h1
             style={{
            
@@ -49,12 +49,10 @@ export default function Home() {
         </div>
         <div>
           {" "}
-          <Image src={programmer} style={{ width: "350px" }}></Image>
+          <img src={programmer} alt="illustrator" className="illustrator"></img>
         </div>
       </div>
-
       <br />
-     
     </>
   );
 }

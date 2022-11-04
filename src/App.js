@@ -62,12 +62,12 @@ function App() {
             <Home />
           </div>
           <div ref={about} className="about">
-            <div style={{ marginLeft: "19.4em" }}>
+            <div className="aboutme">
               <AboutMe />
             </div>
           </div>
           <div ref={experience} className="experience">
-            <div style={{ marginLeft: "35em" }}>
+            <div className="experience">
               <Experience />
             </div>
           </div>
@@ -96,16 +96,7 @@ function App() {
         </header>
       </div>
 
-      <footer
-        style={{
-          marginLeft: "45em",
-          fontFamily: "monospace",
-          color: "#53d3b9",
-          fontSize: "12px",
-        }}
-      >
-        Inspired by Chiang developed by Daelo
-      </footer>
+     
     </>
   );
 }
