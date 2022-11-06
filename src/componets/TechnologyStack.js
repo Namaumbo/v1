@@ -290,6 +290,13 @@ export default function TechnologyStack() {
           </div>
         ) : (
           <div className="smallscreenTech">
+             <h1 className="title">
+                <br />
+            <span>
+             <span className="titleNumber">3.</span>
+                  Technology Stack
+                </span>
+                </h1>
             <h4 className="stack">Javascript</h4>
             <Progress percent={89} color="yellow" size="tiny"/>
             <h4 className="stack">HTML</h4>

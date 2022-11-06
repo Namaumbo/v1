@@ -40,10 +40,10 @@ export default function Home() {
             I build things for the world.
           </h1>
           <br />
-          <Button variant="outline-info" style={{ padding: "1em" }}>
+          <Button variant="outline-info" style={{ padding: "1em" }}  >
             Contact me!
           </Button>{" "}
-          <Button variant="outline-info" style={{ padding: "1em" }}>
+          <Button variant="outline-info" style={{ padding: "1em" }} >
             Check my projects
           </Button>{" "}
         </div>

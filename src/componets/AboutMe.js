@@ -57,12 +57,7 @@ export default function AboutMe() {
           </p>
 
           <p
-            style={{
-              textAlign: "justify",
-              color: "#8892b0",
-              fontWeight: "revert",
-              fontSize: "17px",
-            }}
+          className="paragraph"
           >
             Days and struggles passed which finaly got to University of Malawi
             also known as Chancellor College past days.I had to conceptualise
@@ -73,12 +68,7 @@ export default function AboutMe() {
             better.
           </p>
           <p
-            style={{
-              textAlign: "justify",
-              color: "#8892b0",
-              fontWeight: "revert",
-              fontSize: "17px",
-            }}
+           className="paragraph"
           >
             Here are some of the technology stack I have been working with in
             the recent time.
