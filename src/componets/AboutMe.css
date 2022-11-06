@@ -54,3 +54,11 @@
         font-size: 15px;
     }
 }
+@media (max-width:450px) {
+    .paragraph{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 15px;
+        max-width: 350px;
+    }
+}
