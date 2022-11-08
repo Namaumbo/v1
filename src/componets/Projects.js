@@ -1,8 +1,8 @@
 import React from "react";
-import { Grid, Header, Icon, Image } from "semantic-ui-react";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {  Header, Icon } from "semantic-ui-react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import excepcion from "../Asserts/excepcion2.png";
 import phone from "../Asserts/phone.png";
 import todo from "../Asserts/todoApp.png";
@@ -12,313 +12,310 @@ import "./Project.css";
 export default function Projects() {
   return (
     <>
-    <div>
-         <h1
-           className="title"
-           
-         >
-           <br />
-           <span
-             style={{
-               paddingLeft: "2em",
-               fontFamily: "sans-serif",
-             }}
-           >
-             <span style={{ color: "#53d3b9", fontFamily: "monospace" }}>
-               4.{" "}
-             </span>
-             What I've Built
-           </span>{" "}
-         </h1>
-         <br />
-       </div>
-       
-     <Container>
-      {/* ///////////////////////////// */}
-     <Row xs={1} md={2} >
-     <h3
-          style={{
-            marginLeft: "4.6em",
-            color: "#ccd6f6",
-            fontFamily: "sans-serif",
-            fontWeight: "bolder",
-          }}
-        >
-          Excepcion Record
-        </h3>
-        <Col><div
+      <div>
+        <h1 className="title">
+          <br />
+          <span
             style={{
-              width: "500px",
-              border: ".5px solid #0a192f",
-              color: "#8892b0",
-              borderRadius: "5px",
-              boxShadow: "-1px 3px 35px .5px black",
+              paddingLeft: "2em",
+              fontFamily: "sans-serif",
             }}
           >
-            <div
-              style={{
-                backgroundColor: "#0a192f",
-                padding: "1em",
-                justify: "left",
-              }}
-            >
-              A web app for downloading and streaming songs and tracks. You can
-              Follow an artists, donwloaded and streamed statistics, and
-              detailed audio information about each track.Only registered Admin
-              can upload songs and more
-              <Header as="h4" style={{ color: "#53d3b9", fontFamily: "monospace" }}>
-             Reactjs Node js Express postgresql firebase recoil
-             </Header>
-             <br />
-           <a
-            href="https://github.com/spikkernamaumbo/Exception"
-            style={{ textDecoration: "none" }}
-          >
-            <Icon
-              name="github"
-              size="large"
-              link
-              style={{
-                color: "white",
-                marginRight: "1em",
-                marginTop: "-2em  ",
-              }}
-            ></Icon>
-          </a>
-          <a href="https://exception-v1.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-            style={{ textDecoration: "none" }}>
-            <Icon
-              name="external"
-              size="large"
-              link
-              style={{ color: "white", marginTop: "-2em" }}
-            />
-          </a>
-            </div>
-            </div>
-          </Col>
-        <Col >
-        <img
-        className="projectImage"
-            src={excepcion}
-          /></Col>
-        
-      </Row>
-      <br />
-      {/* ////////////////////////////// */}
-      <Row xs={1} md={2} >
-      <h3
-          style={{
-            marginLeft: "4.6em",
-            color: "#ccd6f6",
-            fontFamily: "sans-serif",
-            fontWeight: "bolder",
-          }}
-        >
-          Gas booking application
-        </h3>
-        <Col>
-        <div
-            style={{
-              width: "500px",
-              border: ".5px solid #0a192f",
-              color: "#8892b0",
-              borderRadius: "5px",
-              boxShadow: "-1px 3px 35px .5px black",
-            }}
-          >
-            <div
-              style={{
-                backgroundColor: "#0a192f",
-                padding: "1em",
-                justify: "left",
-              }}
-            >
-               A mobile application for booking and following orders of cooking
-               gas. You can Follow, place, cancel gas orders and sending
-               locational address to either be delivered at home. You can follow
-             financial statements and done orders among others.
-             <Header as="h4" style={{ color: "#53d3b9", fontFamily: "monospace" }}>
-             mock it
-           </Header>
-           <br />
-           <a
-            href="https://mockittapp.wondershare.com/app/35830a9402ce1b3ccf7d838b67cd70154111d150#screen=sl7k7iig3iqslxv"
-            target="_blank"
-            rel="noreferrer"
-            style={{ textDecoration: "none" }}
-          >
-            <Icon
-              name="external"
-              size="large"
-              link
-              style={{ color: "white", marginTop: "-2em" }}
-            ></Icon>
-          </a>
-            </div>
-            </div>
-          </Col>
-        <Col >
-        <img
-        className="projectImage"
-        src={phone}
-          /></Col>
-      </Row>
-      {/* ////////////////////////////// */}
-            <br />
-      <Row xs={1} md={2} >
-      <h3
-          style={{
-            marginLeft: "4.6em",
-            color: "#ccd6f6",
-            fontFamily: "sans-serif",
-            fontWeight: "bolder",
-          }}
-        >
-          To do Application
-        </h3>
-        <Col>
-        <div
-            style={{
-              width: "500px",
-              border: ".5px solid #0a192f",
-              color: "#8892b0",
-              borderRadius: "5px",
-              boxShadow: "-1px 3px 35px .5px black",
-            }}
-          >
-            <div
-              style={{
-                backgroundColor: "#0a192f",
-                padding: "1em",
-                justify: "left",
-              }}
-            >
-                 This is the web application helping people to keep track of their
-               duties to be completed as they also set their priorities.
-             <Header as="h4" style={{ color: "#53d3b9", fontFamily: "monospace" }}>
-             semantic ui React js recoil 
-           </Header>
-           <br />
-           <a
-            href="https://github.com/spikkernamaumbo/Todo_app.git"
-            style={{ textDecoration: "none", color: "white" }}
-          >
-            <Icon
-              name="github"
-              size="large"
-              link
-              style={{
-                color: "white",
-                marginRight: "1em",
-                marginTop: "-2em  ",
-              }}
-            ></Icon>
-          </a>
+            <span style={{ color: "#53d3b9", fontFamily: "monospace" }}>
+              4.{" "}
+            </span>
+            What I've Built
+          </span>{" "}
+        </h1>
+        <br />
+      </div>
 
-          <a
-            href="https://complete-app.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-            style={{ textDecoration: "none" }}
+      <Container>
+        {/* ///////////////////////////// */}
+        <Row xs={1} md={2}>
+          <h3
+            style={{
+              marginLeft: "4.6em",
+              color: "#ccd6f6",
+              fontFamily: "sans-serif",
+              fontWeight: "bolder",
+            }}
           >
-            <Icon
-              name="external"
-              size="large"
-              link
-              style={{ color: "white", marginTop: "-2em" }}
-            ></Icon>
-          </a>
-            </div>
+            Excepcion Record
+          </h3>
+          <Col>
+            <div
+              style={{
+                width: "500px",
+                border: ".5px solid #0a192f",
+                color: "#8892b0",
+                borderRadius: "5px",
+                boxShadow: "-1px 3px 35px .5px black",
+              }}
+            >
+              <div
+                style={{
+                  backgroundColor: "#0a192f",
+                  padding: "1em",
+                  justify: "left",
+                }}
+              >
+                A web app for downloading and streaming songs and tracks. You
+                can Follow an artists, donwloaded and streamed statistics, and
+                detailed audio information about each track.Only registered
+                Admin can upload songs and more
+                <Header
+                  as="h4"
+                  style={{ color: "#53d3b9", fontFamily: "monospace" }}
+                >
+                  Reactjs Node js Express postgresql firebase recoil
+                </Header>
+                <br />
+                <a
+                  href="https://github.com/spikkernamaumbo/Exception"
+                  style={{ textDecoration: "none" }}
+                >
+                  <Icon
+                    name="github"
+                    size="large"
+                    link
+                    style={{
+                      color: "white",
+                      marginRight: "1em",
+                      marginTop: "-2em  ",
+                    }}
+                  ></Icon>
+                </a>
+                <a
+                  href="https://exception-v1.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
+                  <Icon
+                    name="external"
+                    size="large"
+                    link
+                    style={{ color: "white", marginTop: "-2em" }}
+                  />
+                </a>
+              </div>
             </div>
           </Col>
-        <Col >
-        <img
-        className="projectImage"
-        src={todo}
-          />
+          <Col>
+            <img className="projectImage" src={excepcion} alt="pic" />
           </Col>
-      </Row>
-      {/* ////////////////////////////// */}
-      <Row xs={1} md={2} >
-      <h3
-          style={{
-            marginLeft: "4.6em",
-            color: "#ccd6f6",
-            fontFamily: "sans-serif",
-            fontWeight: "bolder",
-          }}
-        >
+        </Row>
+        <br />
+        {/* ////////////////////////////// */}
+        <Row xs={1} md={2}>
+          <h3
+            style={{
+              marginLeft: "4.6em",
+              color: "#ccd6f6",
+              fontFamily: "sans-serif",
+              fontWeight: "bolder",
+            }}
+          >
+            Gas booking application
+          </h3>
+          <Col>
+            <div
+              style={{
+                width: "500px",
+                border: ".5px solid #0a192f",
+                color: "#8892b0",
+                borderRadius: "5px",
+                boxShadow: "-1px 3px 35px .5px black",
+              }}
+            >
+              <div
+                style={{
+                  backgroundColor: "#0a192f",
+                  padding: "1em",
+                  justify: "left",
+                }}
+              >
+                A mobile application for booking and following orders of cooking
+                gas. You can Follow, place, cancel gas orders and sending
+                locational address to either be delivered at home. You can
+                follow financial statements and done orders among others.
+                <Header
+                  as="h4"
+                  style={{ color: "#53d3b9", fontFamily: "monospace" }}
+                >
+                  mock it
+                </Header>
+                <br />
+                <a
+                  href="https://mockittapp.wondershare.com/app/35830a9402ce1b3ccf7d838b67cd70154111d150#screen=sl7k7iig3iqslxv"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
+                  <Icon
+                    name="external"
+                    size="large"
+                    link
+                    style={{ color: "white", marginTop: "-2em" }}
+                  ></Icon>
+                </a>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <img className="projectImage" src={phone} alt="pic" />
+          </Col>
+        </Row>
+        {/* ////////////////////////////// */}
+        <br />
+        <Row xs={1} md={2}>
+          <h3
+            style={{
+              marginLeft: "4.6em",
+              color: "#ccd6f6",
+              fontFamily: "sans-serif",
+              fontWeight: "bolder",
+            }}
+          >
+            To do Application
+          </h3>
+          <Col>
+            <div
+              style={{
+                width: "500px",
+                border: ".5px solid #0a192f",
+                color: "#8892b0",
+                borderRadius: "5px",
+                boxShadow: "-1px 3px 35px .5px black",
+              }}
+            >
+              <div
+                style={{
+                  backgroundColor: "#0a192f",
+                  padding: "1em",
+                  justify: "left",
+                }}
+              >
+                This is the web application helping people to keep track of
+                their duties to be completed as they also set their priorities.
+                <Header
+                  as="h4"
+                  style={{ color: "#53d3b9", fontFamily: "monospace" }}
+                >
+                  semantic ui React js recoil
+                </Header>
+                <br />
+                <a
+                  href="https://github.com/spikkernamaumbo/Todo_app.git"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  <Icon
+                    name="github"
+                    size="large"
+                    link
+                    style={{
+                      color: "white",
+                      marginRight: "1em",
+                      marginTop: "-2em  ",
+                    }}
+                  ></Icon>
+                </a>
+                <a
+                  href="https://complete-app.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: "none" }}
+                >
+                  <Icon
+                    name="external"
+                    size="large"
+                    link
+                    style={{ color: "white", marginTop: "-2em" }}
+                  ></Icon>
+                </a>
+              </div>
+            </div>
+          </Col>
+          <Col>
+            <img className="projectImage" src={todo} alt="pic" />
+          </Col>
+        </Row>
+        {/* ////////////////////////////// */}
+        <Row xs={1} md={2}>
+          <h3
+            style={{
+              marginLeft: "4.6em",
+              color: "#ccd6f6",
+              fontFamily: "sans-serif",
+              fontWeight: "bolder",
+            }}
+          >
             Human Resourse Management system
-        </h3>
-        <Col>
-        <div
-            style={{
-              width: "500px",
-              border: ".5px solid #0a192f",
-              color: "#8892b0",
-              borderRadius: "5px",
-              boxShadow: "-1px 3px 35px .5px black",
-              
-            }}
-          >
+          </h3>
+          <Col>
             <div
               style={{
-                backgroundColor: "#0a192f",
-                padding: "1em",
-                justify: "left",
-                zIndex:"1"
-                
+                width: "500px",
+                border: ".5px solid #0a192f",
+                color: "#8892b0",
+                borderRadius: "5px",
+                boxShadow: "-1px 3px 35px .5px black",
               }}
             >
+              <div
+                style={{
+                  backgroundColor: "#0a192f",
+                  padding: "1em",
+                  justify: "left",
+                  zIndex: "1",
+                }}
+              >
                 A web app for managing applications when a job posting has been
-               made Admin can post job and applications are managed
-               systematically .This is a featured project under development and
-               am implementing the front end and have yet patched some of the
-              back end duties.
-             <Header as="h4" style={{ color: "#53d3b9", fontFamily: "monospace" }}>
-             Reactjs semantic ui tailwind postgresql
-           </Header>
-           <br />
-           <a
-            href="https://github.com/MARTINCHUNGA/hrms1"
-            style={{ textDecoration: "none" }}
-          >
-            {" "}
-            <Icon
-              name="github"
-              size="large"
-              link
-              style={{
-                color: "white",
-                marginRight: "1em",
-                marginTop: "-2em  ",
-              }}
-            ></Icon>
-          </a>
-
-          <Icon
-            name="external"
-            size="large"
-            link
-            style={{ color: "white", marginTop: "-2em" }}
-          ></Icon>
-            </div>
+                made Admin can post job and applications are managed
+                systematically .This is a featured project under development and
+                am implementing the front end and have yet patched some of the
+                back end duties.
+                <Header
+                  as="h4"
+                  style={{ color: "#53d3b9", fontFamily: "monospace" }}
+                >
+                  Reactjs semantic ui tailwind postgresql
+                </Header>
+                <br />
+                <a
+                  href="https://github.com/MARTINCHUNGA/hrms1"
+                  style={{ textDecoration: "none" }}
+                >
+                  {" "}
+                  <Icon
+                    name="github"
+                    size="large"
+                    link
+                    style={{
+                      color: "white",
+                      marginRight: "1em",
+                      marginTop: "-2em  ",
+                    }}
+                  ></Icon>
+                </a>
+                <Icon
+                  name="external"
+                  size="large"
+                  link
+                  style={{ color: "white", marginTop: "-2em" }}
+                ></Icon>
+              </div>
             </div>
           </Col>
-        <Col >
-        <img
-        className="projectImage"
-        src={hrms}
-          />
+          <Col>
+            <img className="projectImage" src={hrms} alt="pic" />
           </Col>
-      </Row>
-      {/* ////////////////////////////// */}
-     </Container>
+        </Row>
+        {/* ////////////////////////////// */}
+      </Container>
     </>
-    
+
     //         <br />
     //         {"<>"} Other projects! {"</>"}
     //       </h1>
