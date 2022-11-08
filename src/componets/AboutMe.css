@@ -1,18 +1,20 @@
 .frontStack ul li {
     color: #53d3b9;
-    font-size: "17px"
+    font-size: 17px
 }
 
 .backendStack ul li {
     color: #53d3b9;
-    font-size: "17px"
+    font-size: 17px
 }
 
 .listContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
+.image{
+        width: 300px
+      }
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -25,7 +27,7 @@
         margin-right: auto;
         font-weight: revert;
         font-size: 17px;
-        max-width: 450px;
+        max-width: 650px;
 }
 .divider{
     width: 75%;   
@@ -40,25 +42,51 @@
 @media (max-width:1030px) {
    
     .wrapper{
-        display: block;
+        display: inline;
+      
     }
-    /* .about{
-    
-        margin-left:auto;
-        margin-right:auto;
-        width: 50%;  
-    } */
+ 
     .paragraph{
         margin-left: auto;
         margin-right: auto;
         font-size: 15px;
+    }
+    .backendStack ul li{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 15px; 
+    }
+    .frontStack ul li {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 15px; 
     }
 }
-@media (max-width:450px) {
+@media (max-width:705px) {
+    .paragraph{
+        margin-left: auto;
+
+        margin-right: auto;
+        font-size: 15px;
+        max-width: 450px;
+    }
+}
+@media (max-width:500px) {
     .paragraph{
         margin-left: auto;
         margin-right: auto;
         font-size: 15px;
-        max-width: 350px;
+        max-width: 400px;
     }
+    .backendStack ul li{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 13px; 
+    }
+    .frontStack ul li {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 13px; 
+    }
+
 }

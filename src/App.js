@@ -1,6 +1,5 @@
 import "./App.css";
 import Home from "./componets/Home";
-
 import AboutMe from "./componets/AboutMe";
 import Experience from "./componets/Experience";
 import TechnologyStack from "./componets/TechnologyStack";
@@ -8,7 +7,9 @@ import Projects from "./componets/Projects";
 import WhatsNext from "./componets/WhatsNext";
 import Contact from "./componets/Contact";
 import { useRef } from "react";
-
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 function App() {
   const home = useRef(null);
@@ -26,8 +27,7 @@ function App() {
   };
   return (
     <>
-     <div className="hero" >
-        
+     {/* <div className="hero" >
         <ul>
           <li onClick={() => scrollToSection(home)} className="link">
             Home
@@ -48,8 +48,25 @@ function App() {
             projects
           </li>
         </ul>
-      </div>
+      </div> */}
+<Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link onClick={() => scrollToSection(home)}>Home</Nav.Link>
+            <Nav.Link onClick={() => scrollToSection(about)}>About</Nav.Link>
+            <Nav.Link onClick={() => scrollToSection(experience)}>Experience</Nav.Link>
+            <Nav.Link onClick={() => scrollToSection(technologyStack)}>TechnologyStack</Nav.Link>
+            <Nav.Link onClick={() => scrollToSection(projects)}>Projects</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
 
+
+{/* <Button >well</Button> */}
       <div className="App" >
      
         <header className="App-header">
@@ -96,6 +113,7 @@ function App() {
         </header>
       </div>
 
+    
      
     </>
   );

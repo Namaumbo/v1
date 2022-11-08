@@ -24,9 +24,6 @@ export default function AboutMe() {
           <span className="titles">About Me</span>
         </Divider>
         </div>
-       
-        {/* </span>{" "} */}
-        {/* </h1> */}
         <br />
       </div>
       <div className="wrapper">
@@ -55,7 +52,6 @@ export default function AboutMe() {
             buttons together directed me to a number of possibilities. A button
             taught me a lot about HTML & CSS!
           </p>
-
           <p
           className="paragraph"
           >
@@ -101,9 +97,6 @@ export default function AboutMe() {
             src={pic}
             alt="dp"
             className="image"
-            style={{
-              width: "300px",
-            }}
           />
         </div>
       </div>
