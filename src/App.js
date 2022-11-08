@@ -27,13 +27,13 @@ function App() {
   };
   return (
     <>
-    <Navbar bg="light" expand="lg">
-      <Container>
+    <Navbar bg="light" expand="lg" fixed="top" >
+      <Container >
         <Navbar.Brand href="#home">Daelo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link onClick={() => scrollToSection(home)}>Home</Nav.Link>
+            <Nav.Link onClick={() => scrollToSection(home)} >Home</Nav.Link>
             <Nav.Link onClick={() => scrollToSection(about)}>About</Nav.Link>
             <Nav.Link onClick={() => scrollToSection(experience)}>Experience</Nav.Link>
             <Nav.Link onClick={() => scrollToSection(technologyStack)}>TechnologyStack</Nav.Link>
@@ -43,8 +43,6 @@ function App() {
       </Container>
     </Navbar>
 
-
-{/* <Button >well</Button> */}
       <div className="App" >
      
         <header className="App-header">
@@ -57,29 +55,43 @@ function App() {
             <Home />
           </div>
           <div ref={about} className="about">
+          <br />
+      
             <div className="aboutme">
               <AboutMe />
             </div>
           </div>
+        
+      <br />
+
           <div ref={experience} className="experience">
+          <br />
             <div className="experience">
               <Experience />
             </div>
           </div>
-
+          <br />
           <div ref={technologyStack} className="techstack">
+            <br />
             <br />
             <br />
             <div>
               <TechnologyStack />
             </div>
             <br />
+            <br />
           </div>
           <div ref={projects} className="projects">
+          <br />
+          <br />
+          <br />
             <div>
               <Projects />
             </div>
           </div>
+        
+      <br />
+
           <div ref={contact} className="contact">
             <div style={{ marginLeft: "15em" }}>
               <WhatsNext />
