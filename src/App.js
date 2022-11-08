@@ -27,31 +27,9 @@ function App() {
   };
   return (
     <>
-     {/* <div className="hero" >
-        <ul>
-          <li onClick={() => scrollToSection(home)} className="link">
-            Home
-          </li>
-          <li onClick={() => scrollToSection(about)} className="link">
-            About me
-          </li>
-          <li onClick={() => scrollToSection(experience)} className="link">
-            Experience
-          </li>
-          <li
-            onClick={() => scrollToSection(technologyStack)}
-            className="link"
-          >
-            TechnologyStack
-          </li>
-          <li onClick={() => scrollToSection(projects)} className="link">
-            projects
-          </li>
-        </ul>
-      </div> */}
-<Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Daelo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
