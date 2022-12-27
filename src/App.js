@@ -61,9 +61,7 @@ function App() {
               <AboutMe />
             </div>
           </div>
-        
       <br />
-
           <div ref={experience} className="experience">
           <br />
             <div className="experience">
@@ -101,10 +99,7 @@ function App() {
             </div>
           </div>
         </header>
-      </div>
-
-    
-     
+      </div>     
     </>
   );
 }

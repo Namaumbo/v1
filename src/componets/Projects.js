@@ -6,7 +6,8 @@ import Col from "react-bootstrap/Col";
 import excepcion from "../Asserts/excepcion2.png";
 import phone from "../Asserts/phone.png";
 import todo from "../Asserts/todoApp.png";
-import hrms from "../Asserts/Screenshot (83).png";
+import hrms from "../Asserts/Screenshot (116).png";
+
 import "./Project.css";
 
 export default function Projects() {
@@ -251,7 +252,7 @@ export default function Projects() {
               fontWeight: "bolder",
             }}
           >
-            Human Resourse Management system
+            Secondary school Management system
           </h3>
           <Col>
             <div
@@ -271,20 +272,20 @@ export default function Projects() {
                   zIndex: "1",
                 }}
               >
-                A web app for managing applications when a job posting has been
-                made Admin can post job and applications are managed
-                systematically .This is a featured project under development and
-                am implementing the front end and have yet patched some of the
-                back end duties.
+                A web app for managing users like students , parents , teachers 
+                where by the uniqueness of the application being auto generation
+                of reports and school time table.Teachers will be at liberty to 
+                see how students and class is performing. This is a featured project
+                under implementation.
                 <Header
                   as="h4"
                   style={{ color: "#53d3b9", fontFamily: "monospace" }}
                 >
-                  Reactjs semantic ui tailwind postgresql
+                  React js Material ui Laravel recoil mySQL
                 </Header>
                 <br />
                 <a
-                  href="https://github.com/MARTINCHUNGA/hrms1"
+                  href="https://github.com/spikkernamaumbo/SchoolManagementSys"
                   style={{ textDecoration: "none" }}
                 >
                   {" "}
