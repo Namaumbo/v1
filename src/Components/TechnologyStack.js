@@ -11,6 +11,7 @@ import react from "../Asserts/react.png";
 import laravel from "../Asserts/laravel.png";
 import python from "../Asserts/python.png";
 import java from "../Asserts/java.png";
+import dart from '../Asserts/Dart-logo.png'
 import "./technology.css";
 
 export default function TechnologyStack() {
@@ -136,6 +137,8 @@ export default function TechnologyStack() {
                     <p></p>
                     <Progress color="green" percent={80} size="tiny" />
                   </Grid.Column>
+
+
                   <Grid.Column>
                     <Header
                       as="h3"
@@ -146,7 +149,30 @@ export default function TechnologyStack() {
                         fontFamily: "monospace",
                       }}
                     >
-                      spring
+                      (Flutter)
+                    </Header>
+                    <Image
+                      src={dart}
+                      style={{
+                        width: "55px",
+                        border: "1.5 solid white",
+                        borderRadius: "10px",
+                      }}
+                    />
+                    <p></p>
+                    <Progress color="green" percent={50} size="tiny" />
+                  </Grid.Column>
+                  <Grid.Column>
+                    <Header
+                      as="h3"
+                      style={{
+                        color: "#53d3b9",
+                        fontWeight: "lighter",
+                        fontSize: "15px",
+                        fontFamily: "monospace",
+                      }}
+                    >
+                      springBoot
                     </Header>
                     <Image
                       src={spring}
@@ -299,6 +325,8 @@ export default function TechnologyStack() {
                 </h1>
             <h4 className="stack">Javascript</h4>
             <Progress percent={89} color="yellow" size="tiny"/>
+            <h4 className="stack">Dart(flutter)</h4>
+            <Progress percent={51} color="yellow" size="tiny"/>
             <h4 className="stack">HTML</h4>
             <Progress percent={100} color="red" size="tiny" />
             <h4 className="stack">CSS</h4>

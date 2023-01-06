@@ -1,11 +1,11 @@
 import "./App.css";
-import Home from "./componets/Home";
-import AboutMe from "./componets/AboutMe";
-import Experience from "./componets/Experience";
-import TechnologyStack from "./componets/TechnologyStack";
-import Projects from "./componets/Projects";
-import WhatsNext from "./componets/WhatsNext";
-import Contact from "./componets/Contact";
+import Home from "./Components/Home";
+import AboutMe from "./Components/AboutMe";
+import Experience from "./Components/Experience";
+import TechnologyStack from "./Components/TechnologyStack";
+import Projects from "./Components/Projects";
+import WhatsNext from "./Components/WhatsNext";
+import Contact from "./Components/Contact";
 import { useRef } from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
