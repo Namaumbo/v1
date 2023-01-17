@@ -252,7 +252,7 @@ export default function Projects() {
               fontWeight: "bolder",
             }}
           >
-            Secondary school Management system
+            Facebook Clone
           </h3>
           <Col>
             <div
