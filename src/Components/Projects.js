@@ -272,11 +272,9 @@ export default function Projects() {
                   zIndex: "1",
                 }}
               >
-                A web app for managing users like students , parents , teachers 
-                where by the uniqueness of the application being auto generation
-                of reports and school time table.Teachers will be at liberty to 
-                see how students and class is performing. This is a featured project
-                under implementation.
+             A web social application . <b>This is a Facebook clone.</b> Users can share images and 
+             and videos status updates. They can also see job postings and movie trends as well
+             as song trends. 
                 <Header
                   as="h4"
                   style={{ color: "#53d3b9", fontFamily: "monospace" }}
@@ -285,7 +283,7 @@ export default function Projects() {
                 </Header>
                 <br />
                 <a
-                  href="https://github.com/spikkernamaumbo/SchoolManagementSys"
+                  href="https://github.com/spikkernamaumbo/facebookClone"
                   style={{ textDecoration: "none" }}
                 >
                   {" "}
@@ -300,12 +298,18 @@ export default function Projects() {
                     }}
                   ></Icon>
                 </a>
+                <a
+                href="https://daelo-fb-clone.netlify.app/"
+                style={{ textDecoration: "none" }}
+                >
                 <Icon
                   name="external"
                   size="large"
                   link
                   style={{ color: "white", marginTop: "-2em" }}
-                ></Icon>
+                />
+                </a>
+               
               </div>
             </div>
           </Col>
