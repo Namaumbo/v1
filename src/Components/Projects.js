@@ -279,7 +279,7 @@ export default function Projects() {
                   as="h4"
                   style={{ color: "#53d3b9", fontFamily: "monospace" }}
                 >
-                  React js Material ui Laravel recoil mySQL
+                  React js Material ui  
                 </Header>
                 <br />
                 <a
