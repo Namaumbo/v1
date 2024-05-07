@@ -56,7 +56,6 @@ function App() {
           </div>
           <div ref={about} className="about">
           <br />
-      
             <div className="aboutme">
               <AboutMe />
             </div>
