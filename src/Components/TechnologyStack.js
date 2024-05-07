@@ -11,7 +11,7 @@ import react from "../Asserts/react.png";
 import laravel from "../Asserts/laravel.png";
 import python from "../Asserts/python.png";
 import java from "../Asserts/java.png";
-import dart from '../Asserts/Dart-logo.png'
+
 import "./technology.css";
 
 export default function TechnologyStack() {
@@ -303,8 +303,7 @@ export default function TechnologyStack() {
                 </h1>
             <h4 className="stack">Javascript</h4>
             <Progress percent={89} color="yellow" size="tiny"/>
-            <h4 className="stack">Dart(flutter)</h4>
-            <Progress percent={51} color="yellow" size="tiny"/>
+ 
             <h4 className="stack">HTML</h4>
             <Progress percent={100} color="red" size="tiny" />
             <h4 className="stack">CSS</h4>
