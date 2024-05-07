@@ -13,23 +13,23 @@ Welcome to my  portfolio! This repository contains a collection of projects, cod
 
 ### About Me <a name="about-me"></a>
 
-I am a passionate and dedicated software developer with [X] years of experience in the industry. My expertise lies in [mention your key skills or technologies you specialize in]. I have worked on a variety of projects, ranging from [mention types of projects or industries you've worked in].
+I am a passionate and dedicated software developer with 3 years of experience in the industry. My expertise lies in JS,Python,JAVA, HTML,CSS and PHP. I have worked on a variety of projects, ranging from Financial Instutions , Higher Learning Instutions , Space StartUps etc.
 
 ### Projects <a name="projects"></a>
 
 Here are some of the key projects I've worked on:
 
-1. **Project Name**: Brief description of the project and your role.
-   - Technologies used: List of technologies used in the project.
-   - Link to the project repository or live demo if applicable.
+1. **Wealth AI**: Hospital Based system incomporating AI models for different disease Diagonisis.
+   - Technologies used: Next js , Tailwind etc.
+   - Private Repo.
 
-2. **Project Name**: Brief description of the project and your role.
-   - Technologies used: List of technologies used in the project.
-   - Link to the project repository or live demo if applicable.
+2. **Secondary Management System**: Took the front end role and did some patches in the backend.
+   - Technologies used: PHP laravel , react js and mySql.
+   - [Link.](https://github.com/Namaumbo/vite-nyasa).
 
-3. **Project Name**: Brief description of the project and your role.
-   - Technologies used: List of technologies used in the project.
-   - Link to the project repository or live demo if applicable.
+3. **NyasaBeats**: As a full stack developer I implemented backend and frontend.
+   - Technologies used: node , express , sequerize ORM , PostgreSQL, Tailwind css and React.
+   - [Link.](https://github.com/Namaumbo/vite-nyasa)
 
 Feel free to explore these projects in more detail in their respective repositories.
 
@@ -44,6 +44,6 @@ Here are some of the key skills and technologies I possess:
 
 ### Contact Information <a name="contact-information"></a>
 
-You can reach out to me via email at [your@email.com](mailto:your@email.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/yourprofile). I am open to new opportunities, collaborations, or just chatting about software development!
+You can reach out to me via email at [spikkernamaumbo@email.com](mailto:your@email.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/daelo-namaumbo-b66a6b198/). I am open to new opportunities, collaborations, or just chatting about software development!
 
 Thank you for visiting my portfolio!
