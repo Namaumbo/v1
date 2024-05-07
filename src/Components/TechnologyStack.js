@@ -139,29 +139,7 @@ export default function TechnologyStack() {
                   </Grid.Column>
 
 
-                  <Grid.Column>
-                    <Header
-                      as="h3"
-                      style={{
-                        color: "#53d3b9",
-                        fontWeight: "lighter",
-                        fontSize: "15px",
-                        fontFamily: "monospace",
-                      }}
-                    >
-                      (Flutter)
-                    </Header>
-                    <Image
-                      src={dart}
-                      style={{
-                        width: "55px",
-                        border: "1.5 solid white",
-                        borderRadius: "10px",
-                      }}
-                    />
-                    <p></p>
-                    <Progress color="green" percent={50} size="tiny" />
-                  </Grid.Column>
+               
                   <Grid.Column>
                     <Header
                       as="h3"
