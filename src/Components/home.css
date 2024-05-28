@@ -1,20 +1,54 @@
-.illustrator{
-     width:350px 
+.illustrator {
+  width: 350px;
 }
-.home{
-display: flex; 
-justify-content: space-around ;
+.home {
+  display: flex;
+  justify-content: space-around;
 
-margin-bottom: 10em;
+  margin-bottom: 10em;
 }
-@media (max-width:960px) {
-    .illustrator{
-        display: none
-    }
-    .home{
-        margin: auto;
-    }
+@media (max-width: 960px) {
+  .illustrator {
+    display: none;
+  }
+  .home {
+    margin: auto;
+  }
 }
-@media (max-width:625px) {
 
+#second_box {
+  transition: transform 0.5s ease;
+}
+
+#second-box {
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+}
+
+#first-box {
+  transition: transform 0.5s ease;
+}
+
+#first-box {
+  transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+}
+
+@media (max-width: 625px) {
+  #first-box {
+    transition: transform 0.5s ease;
+  }
+  #first-box {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
 }

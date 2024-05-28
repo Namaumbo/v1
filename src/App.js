@@ -7,9 +7,9 @@ import Projects from "./Components/Projects";
 import WhatsNext from "./Components/WhatsNext";
 import Contact from "./Components/Contact";
 import { useRef } from "react";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
 
 function App() {
   const home = useRef(null);
@@ -19,15 +19,15 @@ function App() {
   const technologyStack = useRef(null);
   const experience = useRef(null);
 
-  const scrollToSection = (elementRef) => {
-    window.scrollTo({
-      top: elementRef.current.offsetTop,
-      behavior: "smooth",
-    });
-  };
+  // const scrollToSection = (elementRef) => {
+  //   window.scrollTo({
+  //     top: elementRef.current.offsetTop,
+  //     behavior: "smooth",
+  //   });
+  // };
   return (
     <>
-    <Navbar bg="light" expand="lg" fixed="top" >
+    {/* <Navbar bg="light" expand="lg" fixed="top" >
       <Container >
         <Navbar.Brand href="#home">Daelo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -41,15 +41,12 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+    </Navbar> */}
 
       <div className="container" >
      
         <header className="App-header">
-      <br />
-      <br />
-      <br />
-      <br />
+
 
           <div ref={home} className="home">
             <Home />

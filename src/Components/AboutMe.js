@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutMe.css";
-import pic from "../Asserts/me.jpg";
 import { Divider } from "semantic-ui-react";
 export default function AboutMe() {
   return (
@@ -89,7 +88,6 @@ export default function AboutMe() {
             </div>
           </div>
           <div>
-            <img src={pic} alt="dp" className="image" />
           </div>
         </div>
 
