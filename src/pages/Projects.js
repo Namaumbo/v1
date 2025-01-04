@@ -8,7 +8,7 @@ import phone from "../Asserts/phone.png";
 import todo from "../Asserts/todoApp.png";
 import hrms from "../Asserts/Screenshot (116).png";
 
-import "./Project.css";
+// import "./Project.css";
 
 export default function Projects() {
   return (

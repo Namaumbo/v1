@@ -1,6 +1,6 @@
 import React from "react";
 import { Tab } from "semantic-ui-react";
-import "./Experience.css";
+// import "./Experience.css";
 
 export default function Experience() {
   const panes = [

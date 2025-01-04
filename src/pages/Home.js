@@ -1,67 +1,7 @@
-<<<<<<< HEAD
-import React from "react";
-import { Button } from "react-bootstrap";
-import programmer from "../Asserts/use1.png";
-import "./home.css"
-
-export default function Home() {
-  return (
-    <>
-      <div className="home">
-        <div>
-          <h1
-            style={{
-           
-              color: "#53d3b9",
-              fontFamily: "monospace",
-              fontSize: "20px",
-            }}
-          >
-            <span style={{ fontSize: "100px" }}>Hi,</span>{" "}
-            <span style={{ fontWeight: "lighter", fontSize: "25px" }}>
-              my name is
-            </span>
-          </h1>
-          <h1
-            style={{
-              color: "#8892b0",
-              fontSize: "120px",
-              marginTop: "-40px",
-              fontWeight: "bolder",
-              marginLeft: "-6px",
-              fontFamily: "sans-serif",
-              letterSpacing: "10px",
-            }}
-          >
-            Daelo{" "}
-          </h1>
-          <h1
-            style={{ color: "#ccd6f6", fontSize: "70px", marginTop: "-0.4em" }}
-          >
-            I build things for the world.
-          </h1>
-          <br />
-          <Button variant="outline-info" style={{ padding: "1em" }}  >
-            Contact me!
-          </Button>{" "}
-          <Button variant="outline-info" style={{ padding: "1em" }} >
-            Check my projects
-          </Button>{" "}
-        </div>
-        <div>
-          {" "}
-          <img src={programmer} alt="illustrator" className="illustrator"></img>
-        </div>
-      </div>
-      <br />
-    </>
-  );
-}
-=======
 import React from "react";
 import { Button } from "react-bootstrap";
 // import programmer from "../Asserts/use1.png";
-import "./home.css";
+// import "./home.css";
 
 export default function Home() {
   return (
@@ -69,7 +9,6 @@ export default function Home() {
       <div className="min-h-screen bg-gradient-to-b from-[#0a0e2f70] to-[#0a192f] text-white flex flex-col items-center justify-center w-full">
         <nav className="w-full flex justify-between items-center p-4">
           <div className="flex items-center space-x-4">
-            {/* <img src="https://placehold.co/50x50" alt="Profile Picture" className="rounded-full w-12 h-12"> */}
             <div>
               <h1 className="text-lg font-bold ">Daelo Namaumbo</h1>
               <p className="text-sm text-green-400">Available for work</p>
@@ -107,9 +46,9 @@ export default function Home() {
         </nav>
         <div className="flex flex-col items-center mt-16 text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-            I'm{" "}
-            <span className="text-yellow-300 text-6xl font-[900] ">
-              Daelo Namaumbo
+            I'm
+            <span className="text-yellow-300 text-6xl font-[900] ml-3">
+               Daelo Namaumbo
             </span>
           </h2>
           <h3 className="text-3xl md:text-4xl lg:text-5xl mt-4">
@@ -162,54 +101,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* <div classNameName="home">
-        <div>
-          <h1
-            style={{
-           
-              color: "#53d3b9",
-              fontFamily: "monospace",
-              fontSize: "20px",
-            }}
-          >
-            <span style={{ fontSize: "100px" }}>Hi,</span>{" "}
-            <span style={{ fontWeight: "lighter", fontSize: "25px" }}>
-              my name is
-            </span>
-          </h1>
-          <h1
-            style={{
-              color: "#8892b0",
-              fontSize: "120px",
-              marginTop: "-40px",
-              fontWeight: "bolder",
-              marginLeft: "-6px",
-              fontFamily: "sans-serif",
-              letterSpacing: "10px",
-            }}
-          >
-            Daelo{" "}
-          </h1>
-          <h1
-            style={{ color: "#ccd6f6", fontSize: "70px", marginTop: "-0.4em" }}
-          >
-            I build things for the world.
-          </h1>
-          <br />
-          <Button variant="outline-info" style={{ padding: "1em" }}  >
-            Contact me!
-          </Button>{" "}
-          <Button variant="outline-info" style={{ padding: "1em" }} >
-            Check my projects
-          </Button>{" "}
-        </div>
-        <div>
-          {" "}
-          <img src={programmer} alt="illustrator" classNameName="illustrator"></img>
-        </div>
-      </div> */}
     </>
   );
 }
->>>>>>> 4d798ac384e2d17b8338f8b9d583bffe465ff263

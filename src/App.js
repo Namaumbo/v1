@@ -1,15 +1,15 @@
 import "./App.css";
-import Home from "./Components/Home";
-import AboutMe from "./Components/AboutMe";
-import Experience from "./Components/Experience";
-import TechnologyStack from "./Components/TechnologyStack";
-import Projects from "./Components/Projects";
+import Home from "./pages/Home";
+import AboutMe from "./pages/AboutMe";
+import Experience from "./pages/Experience";
+import TechnologyStack from "./pages/TechnologyStack";
+import Projects from "./pages/Projects";
 import WhatsNext from "./Components/WhatsNext";
-import Contact from "./Components/Contact";
+import Contact from "./pages/Contact";
 import { useRef } from "react";
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 function App() {
   const home = useRef(null);
@@ -19,12 +19,12 @@ function App() {
   const technologyStack = useRef(null);
   const experience = useRef(null);
 
-  // const scrollToSection = (elementRef) => {
-  //   window.scrollTo({
-  //     top: elementRef.current.offsetTop,
-  //     behavior: "smooth",
-  //   });
-  // };
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
     {/* <Navbar bg="light" expand="lg" fixed="top" >
@@ -43,12 +43,12 @@ function App() {
       </Container>
     </Navbar> */}
 
-      <div className="container" >
+      <div className="" >
      
-        <header className="App-header">
+        <header className="">
 
 
-          <div ref={home} className="home">
+          <div ref={home} className="bg-red-600">
             <Home />
           </div>
           <div ref={about} className="about">
