@@ -1,12 +1,27 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
+// import ShinyBtnComponent from "../Components/ShinyBtnComponent";
+// import StarBorder from "../Components/starBorderComponent/StarBorderComponent";
+import Squares from "../Components/SquaresComponent";
 // import programmer from "../Asserts/use1.png";
 // import "./home.css";
 
 export default function Home() {
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-b from-[#0a0e2f70] to-[#0a192f] text-white flex flex-col items-center justify-center w-full">
+    <div className="mt-16">
+    <Squares
+        speed={0.05}
+        size={50}
+        direction="diagonal" // up, down, left, right, diagonal
+        borderColor="#4B3F2C"
+        hoverFillColor="#fff"
+      />
+      </div>
+     
+      <h3 className="text-center text-5xl text-white mt-8">UNDER MAINTANCE</h3>
+      <p className="text-center text-xl text-white mt-8">Please still more visit : https://github.com/Namaumbo</p>
+      {/* <div className="min-h-screen bg-gradient-to-b from-[#0a0e2f70] to-[#0a192f] text-white flex flex-col items-center justify-center w-full">
         <nav className="w-full flex justify-between items-center p-4">
           <div className="flex items-center space-x-4">
             <div>
@@ -40,26 +55,31 @@ export default function Home() {
               </a>
             </li>
           </ul>
-          <Button className="bg-yellow-400 text-black px-4 py-2 rounded-full">
-            Get in touch
-          </Button>
+
+          <button className=" border border[#b5b5b5a4] rounded-full p-3 hover:scale-105 ease-in-out duration-300">
+            <ShinyBtnComponent
+              text="Get In Touch"
+              disabled={false}
+              speed={3}
+              className="text-xl"
+            />
+          </button>
         </nav>
         <div className="flex flex-col items-center mt-16 text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
             I'm
             <span className="text-yellow-300 text-6xl font-[900] ml-3">
-               Daelo Namaumbo
+              Daelo Namaumbo
             </span>
           </h2>
-          <h3 className="text-3xl md:text-4xl lg:text-5xl mt-4">
+          <h3 className="text-3xl md:text-4xl lg:text-5xl ">
             <span className="border p-3 rounded-md mr-2">Full Stack </span>
             Developer
           </h3>
-          {/* <img src="https://placehold.co/200x300" alt="Developer Image" className="mt-8 w-48 h-64 rounded-lg"> */}
-          <Button className="mt-8 bg-yellow-400 text-black px-6 py-3 rounded-full">
-            MY PROJECTS
-          </Button>
         </div>
+        <StarBorder as="button" className="custom-class" color="red" speed="5s">
+          Visit My Portfolio
+        </StarBorder>
         <div className="flex flex-col md:flex-row justify-between items-center mt-16 space-y-8 md:space-y-0 md:space-x-20">
           <div
             className="bg-blue-800 p-4 rounded-lg shadow-lg w-72"
@@ -100,7 +120,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
